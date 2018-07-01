@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset= "UTF-8">
+    <title>Chidi's Pixel Art Maker!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Lab: Pixel Art Maker</h1>
+
+   <div class="grid">
+    <h2>Choose Grid Size</h2>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" max="100" min="1" value="10">
+        Grid Width:
+        <input type="number" id="inputWeight" name="width" max="100" min="1" value="10">
+        <input type="submit">
+    </form>
+
+    <h2>Click to pick A Color</h2>
+    <input type="color" id="colorPicker">
+
+   </div>
+
+   <div class="canvas">
+    <h2>Design Canvas</h2>
+   </div>
+
+    <table id="pixelCanvas"></table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+   <script src="designs.js"></script> </script>
+   
+   <footer>
+    <p>Chidi App &copy; 2018</p>
+   </footer>
+   
+</body>
+</html>
