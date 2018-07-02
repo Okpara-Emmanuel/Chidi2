@@ -23,3 +23,5 @@ Responsive design
 Google Firebase database integration
 well structured input for grid selector
 Clear grid
+
+This is my project > <a href= "https://okpara-emmanuel.github.io/Chidi2/.">Chidi's pixel art maker !</a>
