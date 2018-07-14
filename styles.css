@@ -23,7 +23,8 @@ h2:first-of-type {
 table,
 tr,
 td {
-    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);background-color: whitesmoke;
+    border: 2px solid rgb(5, 4, 4);
 }
 
 table {
@@ -41,9 +42,19 @@ td {
 
 input[type=number] {
     width: 6em;
-    background:rgb(39, 50, 80);
+    background:rgba(39, 50, 80, 0.582);
     color: #ffffff
 }
+
+button { background:rgb(39, 50, 80);
+    color: #ffffff;
+    font-family: chiller;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 12px}
+
+.button:hover{background-color:   #ffffff;
+color: rgb(39, 50, 80); }
 
 .canvas{position:relative;
     top: 0px;
@@ -53,9 +64,8 @@ input[type=number] {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
         width: 470px;
         height:200px;
-       position: relative;
-       left: 475px;}
-
+        position: relative;
+        left: 475px;}
 
 footer{font-family: chiller;
     font-size: 18px;
