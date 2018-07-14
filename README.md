@@ -15,4 +15,4 @@ For specific, detailed instructions, look at the project instructions in the [Ud
 
 This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
 
-This is my project> <a href="https://okpara-emmanuel.github.io/Chidi2/"></a>
+This is my project> <a href="https://okpara-emmanuel.github.io/Chidi2/"> Click here</a>
