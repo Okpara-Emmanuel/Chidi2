@@ -8,12 +8,14 @@ h1 {
     font-size: 70px;
     margin: 0.2em;
     background-color:rgb(39, 50, 80);
+    width: 100%;
 }
 
 h2 {
     margin: 1em 0 0.25em;
     margin: 1em 0 0.25em;
     font-family: chiller;
+    width: 100%;
 }
 
 h2:first-of-type {
@@ -60,12 +62,9 @@ color: rgb(39, 50, 80); }
     top: 0px;
     font-size: 30px}
 
-    .grid{border: 3px solid rgba(14, 10, 32, 0.63);
+    .grid{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-        width: 470px;
-        height:200px;
-        position: relative;
-        left: 475px;}
+        width: 100%;}
 
 footer{font-family: chiller;
     font-size: 18px;
