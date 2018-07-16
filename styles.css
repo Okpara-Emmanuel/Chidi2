@@ -121,7 +121,7 @@ footer{font-family: Ruda;
     -webkit-animation-iteration-count: 2; /* Safari 4.0 - 8.0 */
     -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
     animation-name: example;
-    animation-duration: 6s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate;  
      
@@ -129,11 +129,11 @@ footer{font-family: Ruda;
 
 @-webkit-keyframes example {
     0%   {background-color:rgb(103, 33, 160); left:0px; top:0px;}
-    20%  {background-color:rgb(59, 120, 160); left:100px; top:50px;}
-    40%  {background-color:blue; left:200px; top:0px;}
-    60%  {background-color:green; left:300px; top:50px;}
-    80% {background-color:rgb(6, 4, 15); left:400px; top:0px;}
-    100% {background-color:rgb(224, 18, 45); left:500px; top:50px;}
+    25%  {background-color:rgb(59, 120, 160); left:100px; top:50px;}
+    50%  {background-color:blue; left:200px; top:0px;}
+    75%  {background-color:green; left:300px; top:50px;}
+    100%  {background-color:rgb(14, 11, 182); left:300px; top:50px;}
+ 
  
 
 }
