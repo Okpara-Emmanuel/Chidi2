@@ -59,10 +59,12 @@ button { background:rgb(39, 50, 80);
     -webkit-transition-duration: 0.6s;
     transition-duration: 0.6s;}
 
- p {display: inline-block;}
-
 .button:hover{background-color:   #ffffff;
 color: rgb(39, 50, 80); }
+
+#colorPicker{background-color: rgba(16, 64, 219, 0.219);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);}
 
 .canvas{position:relative;
     top: 0px;
@@ -71,6 +73,8 @@ color: rgb(39, 50, 80); }
     .grid{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
         width: 100%;}
+
+  p {display: inline-block;}
 
 footer{font-family: Ruda;
     font-size: 18px;
@@ -84,17 +88,18 @@ footer{font-family: Ruda;
 
 .bold{font-weight: bold;}
 
-.fa-facebook { background: #060708;
+.fa-facebook {background:#060708;
               color: white;}
 
-.fa-twitter { background: #0b0c08;
+.fa-twitter { background:#0b0c08;
               color: white;}
 
 .fa-github {background: #080808;
             color: white;}
 
-.fa { -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
+.fa{-webkit-transition-duration:
+    0.7s;
+    transition-duration: 0.7s;
     padding: 20px;
     font-size: 30px;
     width: 30px;
@@ -104,3 +109,31 @@ footer{font-family: Ruda;
     border-radius: 50%;}    
  
  .fa:hover{background: rgba(17, 34, 189, 0.877)}
+
+  .div{border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;  
+     
+}
+
+@-webkit-keyframes example {
+    0%   {background-color:rgb(103, 33, 160); left:0px; top:0px;}
+    20%  {background-color:rgb(59, 120, 160); left:100px; top:50px;}
+    40%  {background-color:blue; left:200px; top:0px;}
+    60%  {background-color:green; left:300px; top:50px;}
+    80% {background-color:rgb(6, 4, 15); left:400px; top:0px;}
+    100% {background-color:rgb(224, 18, 45); left:500px; top:50px;}
+ 
+
+}
