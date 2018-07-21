@@ -12,7 +12,7 @@ $('#sizePicker').submit(function(event){
 })
 
 
-// remove an existing gri and replace with new selection
+// remove an existing grid and replace with new selection
 function makeGrid(a, b) {
     $('tr').remove();
 
